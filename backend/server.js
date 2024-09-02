@@ -3,7 +3,7 @@ const app = express();
 const connectDB = require('./dbConnection')
 const Ticket = require('./schema');
 const cors = require("cors");
-const port = process.env. PORT || 8080;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 //Middleware for parsing Json
