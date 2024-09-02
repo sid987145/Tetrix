@@ -1,0 +1,65 @@
+/* Active state for form-check labels */
+.form-check-label.active {
+  background-color: rgba(219, 9, 9, 0.9); /* Slightly adjusted opacity */
+  color: #fff; /* White text for contrast */
+  font-weight: 600;
+  user-select: none;
+  letter-spacing: 0.5px;
+  border-radius: 5px; /* Increased border-radius for a smoother look */
+  cursor: pointer;
+  padding: 12px 20px; /* Slightly larger padding for better click area */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Inactive state for form-check labels */
+.form-check-label.inactive {
+  background-color: #f0f0f0; /* Light background for inactive state */
+  color: #333; /* Darker text color for contrast */
+  user-select: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 2px solid rgba(219, 9, 9, 0.5); /* Light border color to match the active state */
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover effect for inactive state */
+.form-check-label.inactive:hover {
+  background-color: rgba(219, 9, 9, 0.1); /* Subtle color change on hover */
+  opacity: 1;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* General styling for form-check labels */
+.form-check-label {
+  display: inline-block;
+  padding: 12px 20px; /* Consistent padding */
+  font-size: 18px;
+  border: 2px solid rgba(219, 9, 9, 0.5); /* Light border color */
+  margin: 10px;
+  text-align: center; /* Center-align text */
+  border-radius: 5px; /* Smooth corners */
+  transition: all 0.3s ease; /* Smooth transitions for all properties */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for text elements */
+.text {
+  font-size: 17px;
+  text-align: center;
+  color: #333; /* Consistent text color */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  .form-check-label {
+    margin: 5px;
+    font-size: 16px; /* Slightly smaller font size */
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+}

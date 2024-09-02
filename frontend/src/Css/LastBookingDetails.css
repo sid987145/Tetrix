@@ -1,0 +1,83 @@
+.last_booking_details_container {
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 5px solid #2d3436; /* Darker border color for contrast */
+  background-color: rgba(245, 245, 245, 0.5); /* 50% transparent light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.last_booking_details_container:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.last_booking_details_container_main {
+  display: flex;
+  flex-direction: column;
+  color: #2d3436; /* Consistent text color for readability */
+}
+
+.last_booking_details_header {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #e84393; /* Vibrant pink color for the header */
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Slight shadow for text */
+}
+
+.seats_container {
+  margin-bottom: 12px;
+}
+
+.seats_header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #0984e3; /* Eye-catching blue for seats header */
+}
+
+.seats_container .seats_list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px; /* Use gap instead of margin for consistency */
+}
+
+.seat_item {
+  width: 60px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #00cec9; /* Bright teal color for seat values */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.seat_item:hover {
+  background-color: #01a3a3; /* Darker teal on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.slot_detail,
+.movie_detail {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #636e72; /* Neutral gray color for text */
+}
+
+.slot_detail .detail_value,
+.movie_detail .detail_value {
+  font-weight: 400;
+  font-size: 16px;
+  color: #b2bec3; /* Lighter gray for span elements */
+}
+
+.no_booking_message {
+  font-size: 16px;
+  color: #d63031; /* Red color for no previous booking message */
+  font-weight: 500;
+  text-align: center; /* Center-align the message */
+}

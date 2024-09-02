@@ -1,0 +1,83 @@
+:root {
+    --mango-yellow: #ffc107;
+    --mango-orange: #ff9800;
+    --mango-green: #4caf50;
+    --text-color: #333;
+    --background-color: #fff7e6; 
+}
+
+.about-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: var(--mango-orange);
+}
+
+.about-description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-section {
+    padding-left: 20px;
+    border-left: 6px solid var(--mango-green);
+    background-color: rgba(255, 193, 7, 0.1); /* Light mango overlay */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-subtitle {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: var(--mango-yellow);
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-contact-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.about-contact-info li {
+    margin-bottom: 5px;
+}
+
+.about-contact-info a {
+    text-decoration: none;
+    color: var(--mango-orange);
+    font-weight: bold;
+}
+
+.about-contact-info a:hover {
+    text-decoration: underline;
+    color: var(--mango-green);
+}
+
+.about-terms {
+    list-style: disc;
+    margin-left: 20px;
+}
